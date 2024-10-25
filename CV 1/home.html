@@ -1,20 +1,293 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>MY CV</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background:url(liz.png);
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+            background-position: center;
+            background-size: cover;
+        }
+        nav {
+            background-color: #f5eded;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2px solid #ccc;
+        }
+        header {
+            background-color: #333;
+            color: rgb(157, 160, 218);
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 15px 15px;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(157, 160, 218);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+        
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            margin: 10px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .gallery-item img {
+            height: 250px;
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .gallery-item p {
+            margin-top: 5px;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    <a href="home.html">home</a>
-    <a href="personal-information.html">personal-information</a>
-    <a href="work-experience.html">work-experience</a>
-    <a href="educational-background.html">educational-background</a>
-    <a href="gallery.html">gallery</a>
-<h1>NATUHAMYA LIZ</h1>
-<p><b>Address:</b>29 Kagaga Road, Rukungiri, Uganda</p>
-<b>Mobile:</b>0756790810<br><br><b>E-mail:</b>liznatuhamya@gmail.com<br><br><b>DOB:</b>30,July,1999<br><br><b>Religion:</b>Anglican<br><br><b>Marital status:</b>Single</p>
+
+    <header>
+        <p>Curriculum Vitae</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="personal-information.html">Personal Information</a>
+        <a href="work-experience.html">Work Experience</a>
+        <a href="educational-background.html">Educational Background</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my CV page! Here you'll find my personal information, work experience, educational background, and a gallery that displays my skills, hobbies plus a few pictures.</p>
+    </section>
+
+    <section id="my profile">
+        <h2>Profile</h2>
+        <p><b>Name:</b> Natuhamya Liz</p>
+        <p><b>Address:</b>Rukungiri</p>
+        <p><b>Mobile:</b> 0756790810</p>
+        <p><b>Email:</b> liznatuhamya@gmail.com</p>
+        <p><b>Marital Status:</b> Single</p>
+        <p><b>Nationality:</b>Ugandan</p>
+        <p>A motivated, adaptable, and responsible computing student seeking a position in the IT department. I have a customer-focused approach to work and a strong drive to see things through to completion.</p>
+    </section>
+
+    <section id="personal-information">
+        <h2>Personal information</h2>
+        <p>A motivated, adaptable, and responsible computing student seeking a position in the IT department that will utilize the professional and technical skills developed through past work experience in this field. I have a methodical, customer-focused approach to work and a strong drive to see things through to completion. During my course of study, I participated in the Code Buddy launch and Hydro Purity project, both of which were recognized by the head of the IT department at my university.</p> 
+        
+        <h2>Languages Fluent</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="green-text">Languages</th>
+                    <th class="green-text">Fluent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>English</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Kiswahili</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Rukiga</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>French</td>
+                    <td>Fair</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
 
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <p>I was trained in different skills during the recess session after the completion of my first year at university. This session lasted three months, and the skills gained included:</p>
+        <ul>
+            <li>Project Management</li>
+            <li>Computer Repair and Maintenance</li>
+            <li>Computer Networking</li>
+            <li>UI/UX Design</li>
+        </ul>
+        <p>I also learned a few skills during my S6 vacation in Uganda:</p>
+        <ul>
+            <li>Printing</li>
+            <li>Typing fast using keyboard shortcuts</li>
+            <li>Microsoft Word, Excel, Access, and Publisher</li>
+            <li>Wiring and Terminating Cables</li>
+            <li>Editing Photos</li>
+        </ul>
+    </section>
 
-</body>
-</html>
+    <section id="educational-background">
+        <h2>Educational Background</h2>
+        <h3>2019-2023: Uganda Christian University</h3>
+        <p>First class degree - Diploma in Entrepreneurship and Information Technology</p>
+        <h3>Relevant Modules:</h3>
+        <table class="table table-bordered">
+            <tr>
+                <th>Course Units</th>
+                <th>Score</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Essential HW and SW</td>
+                <td>92%</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Database Design and SQL</td>
+                <td>85%</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Web Development and Applications</td>
+                <td>87%</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Computer Networking</td>
+                <td>96%</td>
+                <td>A*</td>
+            </tr>
+        </table>
+
+        <h3>2013-2018: Comfort Secondary School</h3>
+        <table class="table table-bordered">
+            <tr>
+                <th>Roles</th>
+                <th>Club</th>
+                <th>Period</th>
+            </tr>
+            <tr>
+                <td>Secretary</td>
+                <td>Cyber</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td>Speaker</td>
+                <td>Debate</td>
+                <td>6 months</td>
+            </tr>
+            <tr>
+                <td>Welfare</td>
+                <td>Drama</td>
+                <td>2 years</td>
+            </tr>
+            <tr>
+                <td>Best Defender</td>
+                <td>Football</td>
+                <td>3 years</td>
+            </tr>
+        </table>
+
+        <h3>2004-2012: Hill Top Primary School</h3>
+        <table class="table table-bordered">
+            <tr>
+                <th>Period</th>
+                <th>Class</th>
+                <th>Certificate</th>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>Primary Seven</td>
+                <td>Division One</td>
+            </tr>
+            <tr>
+                <td>2011-2012</td>
+                <td>Primary Six</td>
+                <td>Entertainment Prefect</td>
+            </tr>
+            <tr>
+                <td>2010-2011</td>
+                <td>Primary Five</td>
+                <td>Information Prefect</td>
+            </tr>
+            <tr>
+                <td>2009-2010</td>
+                <td>Primary Four</td>
+                <td>Flags Prefect</td>
+            </tr>
+            <tr>
+                <td>2004-2008</td>
+                <td>P.1 - P.4</td>
+                <td>Class Monitor</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <h3><b>Skills Attained</b></h3>
+        <ul>
+            <li>Project Management</li>
+            <li>Developing Websites</li>
+            <li>Computer Repair and Maintenance</li>
+        </ul>
+
+        <h2><b>Hobbies</b></h2>
+        <p>I enjoy constructing computer networks, making new friends, discovering new things, designing, football, and watching.</p>
+
+        <p>I, <u>Natuhamya Liz</u>, declare that the information provided above is true and accurate.</p>
+
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="1st picture.jpg" alt="Repair and Maintenance Session">
+                <p>My first picture during a repair and maintenance session.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="2nd picture.jpg" alt="Terminating Cables">
+                <p>My second picture while I was terminating cables.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="3rd picture.png" alt="Overall Connection of Databases">
+                <p>The overall connection of mysql</p>
